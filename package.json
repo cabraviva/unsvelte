@@ -1,0 +1,23 @@
+{
+  "name": "unsvelte",
+  "version": "0.0.0",
+  "description": "Lazy loading components for svelte",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greencoder001/unsvelte.git"
+  },
+  "keywords": [
+    "svelte",
+    "lazy-load"
+  ],
+  "author": "greencoder001",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/greencoder001/unsvelte/issues"
+  },
+  "homepage": "https://github.com/greencoder001/unsvelte#readme"
+}
