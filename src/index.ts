@@ -1,11 +1,9 @@
-// This is the entry point of your app
-// You can export svelte components from here
-export {}
+import Island from './Island.svelte'
+import LazyImg from './LazyImg.svelte'
+import InfiniteScroller from './InfiniteScroller.svelte'
 
-/*
-- JITFunc
-- Island
-- LazyElement
-- LazyImg
-- InifiniteScroller
-*/
+export {
+    Island,
+    LazyImg,
+    InfiniteScroller
+}
