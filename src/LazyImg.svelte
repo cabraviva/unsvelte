@@ -6,7 +6,7 @@
     ```
     The actual source will first be defined when the image is in the users viewport.
 
-    If you have addition props you want to pass down to the image, you can use the `props` property
+    If you have additional props you want to pass down to the image, you can use the `props` property
     ```svelte
     <LazyImg src="/my.jpg" alt="An image" props={{
         height: '10px',
