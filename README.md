@@ -11,7 +11,7 @@
 <Island content={() => import('./MyComponent.svelte')} />
  ```
  Yep, it's that easy.
- If you want to load your component a bit earlier, maybe because the user has a bad connection (which you can btw find out using [webperf](https://npmjs.com/package/webper)), you can change the rootMargin:
+ If you want to load your component a bit earlier, maybe because the user has a bad connection (which you can btw find out using [prefeb](https://npmjs.com/package/prefeb)), you can change the rootMargin:
   ```svelte
 <Island content={() => import('./MyComponent.svelte')} rootMargin="500px" />
  ```
